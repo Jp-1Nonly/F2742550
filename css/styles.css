@@ -125,13 +125,13 @@ nav ul a:hover {
 }
 
 .banner h1 {
-  font-size: 70px;
+  font-size: 75px;
   margin-bottom: 20px;
   
 }
 
 .banner p {
-  font-size: 1.7em;
+  font-size: 2.4em;
 }
 
 .cta-button {
@@ -140,7 +140,7 @@ nav ul a:hover {
   padding: 15px 30px;
   border: none;
   border-radius: 7px;
-  font-size: 18px;
+  font-size: 30px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-decoration: none;
