@@ -111,12 +111,17 @@ nav ul a:hover {
   border-bottom: 1px solid whitesmoke;
   border-top: 1px solid whitesmoke;
   font-weight: bold;
-  padding: 5px 15px 5px 15px;
+  padding: 15px 15px 15px 15px;
   font-size: 2em;
 }
-
-#logoTA {
-  display: none;
+#logoTS {
+  width: 68px;
+  height: auto;
+  margin: 0 10px;
+}
+.logos{
+  display: flex;
+  align-items: center;
 }
 
 /* Estilos para el banner principal */
@@ -151,6 +156,14 @@ nav ul a:hover {
 }
 
 /* Estilos para las características */
+@keyframes zoomIn {
+  from {
+      transform: scale(1); /* Tamaño original */
+  }
+  to {
+      transform: scale(1.1); /* Tamaño aumentado */
+  }
+}
 .features {
   display: flex;
   justify-content: center;
