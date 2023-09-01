@@ -55,7 +55,6 @@ header {
     max-width: 1200px;
     margin: auto;
     margin-top: 20px;
-    
 }
 
 .item{
@@ -87,13 +86,11 @@ header {
     flex-direction: column;
     gap: 10px;
     
-    
 }
 
 .price{
     font-size: 18px;
     font-weight: 900;
-    
 }
 
 
@@ -109,8 +106,6 @@ y letras*/
     color: #fff;
     padding: 15px 10px;
     cursor: pointer;
-    
-    
 }
 
 
@@ -127,14 +122,10 @@ nav {
 
   text-decoration: none;
   font-family: 'Bebas Neue', sans-serif;
-  
-
-  
 }
 
 nav ul {
   display: flex;
-  
   
 }
 
@@ -144,7 +135,6 @@ nav ul a {
   font-size: 1.5em;
   transition: color 0.3s ease;
   padding: 0 9px;
-  
 }
 
     
