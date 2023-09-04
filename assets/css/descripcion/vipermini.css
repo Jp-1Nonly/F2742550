@@ -8,8 +8,8 @@
 
 body {
 	font-family: 'Ubuntu';
-	max-width: 1200px;
 	margin: 0 auto;
+
 }
 
 img {
@@ -33,7 +33,9 @@ header {
 main {
 	display: flex;
 	gap: 30px;
-	margin-bottom: 80px;
+	padding-top: 80px;
+	max-width: 1200px;
+	margin: auto;
 }
 
 .container-img {
