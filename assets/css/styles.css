@@ -93,7 +93,7 @@ header {
 }
 
 .cta-button {
-  background-color: #ff9900;
+  background-color: rgb(71, 71, 248);
   color: #fff;
   padding: 15px 30px;
   border: none;
@@ -106,7 +106,7 @@ header {
 }
 
 .cta-button:hover {
-  background-color: #e68200;
+  background-color: rgb(100, 100, 350);
 }
 
 /* Estilos para las características */
@@ -132,7 +132,7 @@ header {
   text-align: center;
   padding: 0 20px;
   margin-bottom: 40px;
-  background-color: rgba(255, 166, 0, 0.932);
+  background-color: rgba(71, 71, 248, 0.932);
   border-radius: 7px;
 }
 
@@ -162,4 +162,9 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+h1{
+  text-align: center;
+  
 }
