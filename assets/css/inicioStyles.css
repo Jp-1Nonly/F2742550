@@ -1,11 +1,10 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     background-color: #333;
     color: white;
     text-align: center;
@@ -13,12 +12,11 @@ header{
 }
 
 main {
-
     padding: 2rem;
     text-align: left;
 }
 
-#iniciosesion{
+#iniciosesion {
     text-align: center;
 }
 a {
@@ -44,6 +42,7 @@ label, input {
     margin-bottom: 10px;
 }
 
+/* Modifica el estilo de los botones */
 button {
     background-color: #666;
     color: white;
@@ -51,11 +50,16 @@ button {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    /* Cambia display de block a inline-block */
+    display: inline-block;
+    /* Ajusta los márgenes */
+    margin-right: 10px; /* Puedes ajustar el valor según sea necesario */
 }
 
 button:hover {
     background-color: #666;
 }
+
 footer {
     background-color: #333;
     color: #fff;
